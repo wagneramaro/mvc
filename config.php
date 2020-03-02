@@ -2,8 +2,8 @@
 require 'environment.php';
 $config = array();
 
-if(ENVIRONMENT == 'developmenet'){
-    define("BASE_URL", "http://localhost/mvc/");
+if(ENVIRONMENT == 'development'){
+    define("BASE_URL", "http://localhost/2020/mvc/");
     $config['dbname'] = 'estrutura_mvc';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';

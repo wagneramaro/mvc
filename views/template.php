@@ -4,21 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estrutura MVC</title>
-    <style>
-        body{
-            margin:0;
-            padding:0;
-        }
-        a {
-            color:#fff;
-            text-decoration:nome;
-            padding:8px;
-        }
-
-        section{
-            padding:30px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
+   
 </head>
 <body>
 
@@ -36,5 +23,7 @@ Estrutura MVC
     
 <?php $this->loadViewInTemplate($viewName, $viewData); ?>
 
+
+<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ class Core {
         if(!empty($url) && $url != '/'){
             $url = explode('/', $url);
             array_shift($url); // remove o primeiro item do array
-
+           
             $currentController = $url[0].'Controller';
             array_shift($url);
 
